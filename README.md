@@ -9,3 +9,11 @@ docker ps
 kubectl get pods
 
 
+date pattern=yy-MM-dd-HHmm
+mkdir -p verions
+cp target/vprofile-v2.war
+versions/vprofile-V$BUILD_ID_$BUILD_TIMESTAMP.war
+
+
+
+/**.war,
