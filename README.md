@@ -16,4 +16,7 @@ versions/vprofile-V$BUILD_ID_$BUILD_TIMESTAMP.war
 
 
 
-/**.war,
+**/*.war
+
+sudo docker build -t nodejsapp .
+sudo docker run -d -p 3000:3000 nodejsapp
